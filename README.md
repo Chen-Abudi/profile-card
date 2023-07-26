@@ -1,6 +1,26 @@
 # profile-card
+
 A profile card in Next JS, which displays different tabs with content about me. Coming soon!
 
+## Overview
+
+- Intro
+- Languages & Technologies
+
+## Intro
+
+A profile card with tabs showcase content about me and my tech skills, my experience and how to contact me.
+
+---
+
+## Languages & Technologies
+
+- Next.js
+- React.js
+- TypeScript
+- JavaScript
+- TailwindCSS
+- Jest
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
