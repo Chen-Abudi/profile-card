@@ -1,6 +1,6 @@
 # profile-card
 
-Developed by Chen Abudi 👩🏽‍💻
+# Developed by Chen Abudi 👩🏽‍💻
 
 ## 📢 Overview
 
