@@ -1,19 +1,19 @@
 # profile-card
 
-A profile card in Next JS, which displays different tabs with content about me. Coming soon!
+Developed by Chen Abudi 👩🏽‍💻
 
-## Overview
+## 📢 Overview
 
 - Intro
 - Languages & Technologies
 
-## Intro
+## 🔎 Intro
 
 A profile card with tabs showcase content about me and my tech skills, my experience and how to contact me.
 
 ---
 
-## Languages & Technologies
+## 🛠️ Languages & Technologies
 
 - Next.js
 - React.js
