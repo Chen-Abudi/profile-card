@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { Button } from "./common";
+import Button from "./common/Button";
 import AboutTabContent from "./AboutTabContent";
 import TechSkillsTabContent from "./TechSkillsTabContent";
 import ExperienceTabContent from "./ExperienceTabContent";
 import ContactTabContent from "./ContactTabContent";
 
-const ProfileCard: React.FC = () => {
+const ProfileCard: React.FC = (): JSX.Element => {
   const [activeTab, setActiveTab] = useState("about");
 
   const handleTabClick = (tab: string) => {
@@ -19,7 +19,7 @@ const ProfileCard: React.FC = () => {
       </div>
       <div className="border-b mb-4">
         <nav className="-mb-px flex space-x-4">
-          <button
+          <Button
             className={`py-2 px-4 text-sm font-semibold ${
               activeTab === "about"
                 ? "border-b-4 border-blue-500"
@@ -28,8 +28,8 @@ const ProfileCard: React.FC = () => {
             onClick={() => handleTabClick("about")}
           >
             About
-          </button>
-          <button
+          </Button>
+          <Button
             className={`py-2 px-4 text-sm font-semibold ${
               activeTab === "techSkills"
                 ? "border-b-4 border-blue-500"
@@ -38,8 +38,8 @@ const ProfileCard: React.FC = () => {
             onClick={() => handleTabClick("techSkills")}
           >
             Tech Skills
-          </button>
-          <button
+          </Button>
+          <Button
             className={`py-2 px-4 text-sm font-semibold ${
               activeTab === "experience"
                 ? "border-b-4 border-blue-500"
@@ -48,8 +48,8 @@ const ProfileCard: React.FC = () => {
             onClick={() => handleTabClick("experience")}
           >
             Experience
-          </button>
-          <button
+          </Button>
+          <Button
             className={`py-2 px-4 text-sm font-semibold ${
               activeTab === "contact"
                 ? "border-b-4 border-blue-500"
@@ -58,7 +58,7 @@ const ProfileCard: React.FC = () => {
             onClick={() => handleTabClick("contact")}
           >
             Contact
-          </button>
+          </Button>
         </nav>
       </div>
       {activeTab === "about" && <AboutTabContent />}
